@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="useServlet:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/useServlet_war_exploded</output-path>
+    <output-path>$PROJECT_DIR$/out/artifacts/useServlet</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="useServlet/web/Web" />
       <element id="directory" name="WEB-INF">
