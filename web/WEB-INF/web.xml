@@ -12,4 +12,14 @@
         <servlet-name>ImageServlet</servlet-name>
         <url-pattern>/image</url-pattern>
     </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>VerifyServlet</servlet-name>
+        <servlet-class>com.cj.servlet.VerifyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>VerifyServlet</servlet-name>
+        <url-pattern>/verify</url-pattern>
+    </servlet-mapping>
 </web-app>

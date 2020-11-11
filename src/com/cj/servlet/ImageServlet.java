@@ -35,6 +35,7 @@ public class ImageServlet extends HttpServlet {
         }
         //5、将验证码信息存储到Session中以便验证时使用
         request.getSession().setAttribute("checkCode",sb.toString());
+        //System.out.println(request.getSession());
         //6、将生成的图片输出（发送到前端）
         ImageIO.write(bufferedImage,"JPG",response.getOutputStream());
     }

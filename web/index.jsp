@@ -17,12 +17,15 @@
     </script>
   </head>
   <body>
+  <form method="get" action="<%=request.getContextPath()%>/verify">
     <div>
       验证码：
       <input type="text" name="checkCode"/>
       <img alt="验证码" id="img_code" src="<%=request.getContextPath()%>/image"/>
       <a href="javascript:reload()">看不清楚</a>
     </div>
+    <input type="submit" value="提交"/>
+  </form>
 <%--    <button>确认</button>--%>
 <%--    <button>重置</button>--%>
   </body>
